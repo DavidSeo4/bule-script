@@ -1,15 +1,15 @@
 // Crea los siguientes archivos JS:
 
-// - factorial-for.js -> Este archivo debe calcular el factorial de 13 utilizando un solo bucle for
+// - factorial-for.js -> Este archivo debe calcular el factorial de 10 utilizando un solo bucle for
 
-// - factorial-while.js -> Este archivo debe calcular el factorial de 7 utilizando un bucle while
+// - factorial-while.js -> Este archivo debe calcular el factorial de 10 utilizando un bucle while
 
 // - factorial-break.js -> Este archivo debe calcular el factorial de 10 utilizando un bucle while, una bifurcación if y una sentencia break
 
 
 //1
 
-for (let i = 0; i < 13; i++)  
+for (let i = 0; i < 10; i++)  
 { 
     console.log(i);
     
@@ -18,23 +18,13 @@ for (let i = 0; i < 13; i++)
 
 //2
 
-i = 0;
-o = 7;
 
-do {
-  console.log(i);
-} while (i< o);
-
-
-let saldo = 50;
-let efectivo = 20;
-
-if (efectivo < saldo) {
-    console.log("saca dinero bro")
-} else {
-    console.log("mejor no")
+let i= 0;
+let o = 10;
+while (i<o) {
+    console.log(i);
+    i++;
 }
-
 
 //3
 
@@ -54,5 +44,4 @@ bucleDecenas: while (true) {
         }
     }
     decenas++
-}
-console.log("Ya hemos terminado")
+};
